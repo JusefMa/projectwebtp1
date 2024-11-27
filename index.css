@@ -1,11 +1,39 @@
-h2 {
-    display: block;
-    font-size:2em;
-    margin-block-start: 1em;
-    margin-block-end: 5em;
-    margin-inline-start: 1px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-    color: blue;
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.divmaman{
+    display: flex;
+    flex-direction: row;
+}
+
+.divmaman2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.divmaman3{
+    display: flex;
+    flex-direction: column;
+}
+
+.divmaman4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
